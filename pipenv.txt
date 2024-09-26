@@ -1,0 +1,14 @@
+安装生产依赖：
+pipenv install flask sqlalchemy
+
+安装开发依赖：
+pipenv install --dev pytest black
+
+生产环境安装依赖：
+pipenv install --ignore-pipfile --deploy
+
+开发环境安装依赖：
+pipenv install --dev --ignore-pipfile
+
+激活虚拟环境:
+pipenv shell
